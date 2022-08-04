@@ -1,18 +1,56 @@
+/* geral */
 .body
     {
       background-color: white;
+      margin: 0px;
     }
+
+    .rodape
+    { 
+      text-align: center;
+      color: white
+    }
+
+    /* index.html */
+
   .inicio
   {
     color: black;
     text-align: justify;
+    margin-top: 13px;
+    margin-left: 20px;
+  }
+  .caracteristicas 
+  {
+    margin-top: 25px;
+    margin-left: -92px;
+  }
+  .caracteristicas2
+  {
+    margin-left: -112px;
+    text-align: justify;
+    margin-top:  25px;
   }
   .primeiro , .segundo
   {
     color: black;
   }
-  .rodape
-  { 
+  .visit
+  {
     text-align: center;
-    color: white
   }
+
+  /* produtos.html */
+
+  .linha1, .linha2, .linha3
+  {
+    color: black;
+  }
+
+  /* login.html */
+
+  .login
+  {
+    text-align: center;
+  }
+
