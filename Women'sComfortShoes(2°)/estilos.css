@@ -54,3 +54,23 @@
     text-align: center;
   }
 
+   /* cadastro.html */
+
+   .cadastro
+   {
+     text-align: center;
+   }
+
+  /* compras.html , produtoscadastrados.html */
+
+  .table
+  {
+    text-align: center;
+  }
+
+  /* detalhes.html */
+
+  .h1{
+    border-block-start-color: brown;
+    
+        }
