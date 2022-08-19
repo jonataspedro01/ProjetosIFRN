@@ -8,7 +8,12 @@
     .rodape
     { 
       text-align: center;
-      color: white
+      align-items: center;
+      color: white;
+    }
+
+    .rodapetwo{
+      margin-top: 10px;
     }
 
     /* index.html */
@@ -39,7 +44,39 @@
   {
     text-align: center;
   }
+  button{
+    width: 110px;
+    height: 50px;
+    margin-left: 35%;
+    margin-top: 3px;
+    border-color: yellow;
+    color:  black;
+    font-size: 17px;
+    align-items: center;
+    background-color: white;
+    margin-bottom: 12px;  
+}
+button:hover {
+  background: rgb(224, 224, 40);
+  cursor: pointer;
+  color: #000;
+}
 
+a:link
+{
+  text-decoration: none;
+} 
+/* link que foi visitado */
+a:visited 
+{
+  color: blue;
+}
+/* link que ainda não foi visitado */
+
+a.botao-vermelho:link 
+{
+  color: black;
+}
   /* produtos.html */
 
   .linha1, .linha2, .linha3
