@@ -46,7 +46,7 @@
   }
   button{
     width: 110px;
-    height: 50px;
+    height: 40px;
     margin-left: 35%;
     margin-top: 3px;
     border-color: yellow;
@@ -55,6 +55,7 @@
     align-items: center;
     background-color: white;
     margin-bottom: 12px;  
+    border-radius: 7px;
 }
 button:hover {
   background: rgb(224, 224, 40);
@@ -79,10 +80,46 @@ a.botao-vermelho:link
 }
   /* produtos.html */
 
-  .linha1, .linha2, .linha3
+  .linha1
   {
     color: black;
+    
   }
+  .linha2, .linha3{
+    color: black;
+    text-align: center;
+  }
+
+  .btnprodutos {
+    margin-top: 10px;
+    margin-left: 2px;
+ }
+ .btnprodutoscuatro{
+  margin-top: 10px;
+    margin-left: 2px;
+ }
+ #busca{
+  margin-right: -2px;
+  margin-top: 10px;
+ }
+ .btnun{
+  text-align: center;
+ }
+ .borda{
+  border: 1px  black;
+  text-align: center;
+  background-color: rgb(246, 233, 214);
+  font-size: 20px;
+ }
+ .btnbusca{
+   margin-left: 10px; 
+ }
+ .nuestros{
+  text-align: center;
+ }
+ .centralizar{
+  text-align: center;
+ }
 
   /* login.html */
 
