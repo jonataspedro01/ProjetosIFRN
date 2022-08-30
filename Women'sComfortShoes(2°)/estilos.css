@@ -18,6 +18,15 @@
 
     /* index.html */
 
+p{
+  text-align: center;
+}
+.descricion{
+  text-align: justify;
+}
+.titulo{
+  font-size: 22px;
+}
   .inicio
   {
     color: black;
@@ -25,17 +34,32 @@
     margin-top: 13px;
     margin-left: 20px;
   }
-  .caracteristicas 
-  {
+  .women{
+    text-align: center;
+  }
+  .slogan1{
+    font-size: 22px;
+    font-weight: bold;
     margin-top: 25px;
-    margin-left: -92px;
-  }
-  .caracteristicas2
-  {
-    margin-left: -112px;
+    margin-bottom: 20px;
+    margin-inline-end: 10px;
+   
+    padding: -37px;
     text-align: justify;
-    margin-top:  25px;
-  }
+   
+   }
+
+ .slogan{
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  margin-inline-end: 10px;
+  padding: -37px;
+  
+  text-align: justify;
+  
+ }
   .primeiro , .segundo
   {
     color: black;
