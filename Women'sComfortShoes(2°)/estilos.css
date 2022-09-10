@@ -122,9 +122,10 @@ a.botao-vermelho:link
   margin-top: 10px;
     margin-left: 2px;
  }
- #busca{
-  margin-right: -2px;
-  margin-top: 10px;
+ #txtBusca{
+  margin-left: -1px; 
+   margin-top: 12px;
+   width: 190px;
  }
  .btnun{
   text-align: center;
@@ -137,9 +138,12 @@ a.botao-vermelho:link
  }
  .btnbusca{
    margin-left: 10px; 
+   margin-top: 12px;
+   width: 160px;
  }
  .nuestros{
-  text-align: center;
+text-align: center;
+margin-bottom: -1px;
  }
  .centralizar{
   text-align: center;
