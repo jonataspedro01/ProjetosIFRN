@@ -161,6 +161,11 @@ margin-top: 10px;
     text-align: center;
   }
 
+  .log{
+    margin-bottom: 258px;
+        text-align: center;
+  }
+
    /* cadastro.html */
 
    .cadastro
@@ -191,6 +196,11 @@ margin-top: 10px;
     width: 230px;
     }
 
+    .cada{
+      margin-bottom: 3px;
+          text-align: center;
+    }
+
   /* compras.html , produtoscadastrados.html */
 
   .table
@@ -198,9 +208,39 @@ margin-top: 10px;
     text-align: center;
   }
 
+  .kom{
+          
+    margin-top: -6px;
+  }
+
+  .link{
+    font-size: 18px;
+    color: #000;
+    width: 200px;
+    margin-left: 20px;
+  }
   /* detalhes.html */
 
   .h1{
     border-block-start-color: brown;
     
+        }
+
+        
+
+        /* perfil.html */
+
+        p{
+          text-align: center;
+        }
+        .perfil{
+          margin-bottom: 271px;
+          text-align: center;
+        }
+
+        .btncinco{
+         text-align: center;
+           margin-top: 5px;
+           margin-left: 10px;
+          width: 120px;
         }
