@@ -122,12 +122,7 @@ a.botao-vermelho:link
   margin-top: 10px;
     margin-left: 2px;
  }
- .txtBusca{
-  border: 1px solid black;
-  padding: -4px;
-  width: 170px;
-  margin-top: 2px;
- }
+ 
  .btnun{
   text-align: center;
   margin-left: 5px; 
@@ -154,6 +149,10 @@ margin-top: 10px;
  .centralizar{
   text-align: center;
  }
+
+ input[type=text1]{
+  width: 200px;
+  }
 
   /* login.html */
 
