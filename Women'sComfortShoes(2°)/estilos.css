@@ -167,7 +167,30 @@ margin-top: 10px;
    .cadastro
    {
      text-align: center;
+     color: black;
+     margin-top: 10px;
+     font-size: 17px;
+   height: 480px;
    }
+
+   .titulo{
+    text-align: center;
+    color: black;
+    margin-top: 1px;
+    font-size: 30px;
+    padding: 20px;
+   }
+
+   .btnccadastrar{
+    text-align: center;
+    margin-left: 5px; 
+   margin-top: 5px;
+   width: 120px;
+   }
+   
+   input[type=text], [type=textemail] , [type=password] {
+    width: 230px;
+    }
 
   /* compras.html , produtoscadastrados.html */
 
