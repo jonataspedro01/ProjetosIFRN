@@ -34,15 +34,15 @@
     <a class="nav-link text-white" href="login.html">Login</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link text-white" href="logout.html">Logout</a>
+    <a class="nav-link text-white" href="login.html">Sair</a>
   </li>
   </ul>                                                                              
     </header>
-         
+ 
           <div class="container-fluid">
     <div class="row ">
-       <div class="col-12 col-md-8 ">  
-        <h1>Administração Nome do usuário</h1>
+       <div class="col-12 col-md-12 ">  
+        <h1 class="center">Nome do usuário</h1>
        
           </div>
         </div>
@@ -50,17 +50,22 @@
        
         <div class="container-fluid">
             <div class="row ">
-               <div class="col-12 col-md-2 ">  
-                <a class="nav-link text-black" aria-current="page" href="index.html">Início</a>
-                <a class="nav-link text-black" aria-current="page" href="dadospessoais.html">Perfil</a>
-                <a class="nav-link text-black" aria-current="page" href="compras.html">Compras</a>
-                <a class="nav-link text-black" aria-current="page" href="produtos.html">Produtos</a>
+               <div class="col-12 col-md-12 "> 
+                <div class="cadin">
+               <button class="cadin"> <a href="dadospessoais.html"  >Perfil</a> </button>
                </div>
-            <div class="col-12 col-md-10 "> 
-            <table class="table">
-                <h3>Produtos Ofertados</h3>
-                <form method="get" action="cadastrodeitens.html"><button type="submit">Cadastrar Produto</button></form>
-               
+               <div class="cadin">
+  <button class="cadin2"><a href="compras.html"  >Compras</a> </button>
+</div>
+<div class="cadin3">
+ <button class="cadin3"><a href="cadastrodeitens.html" >Cadastrar Produto</a> </button> 
+     
+</div> 
+              </div>
+             
+                  <div class="col-12 col-md-12 "> 
+                    <h3 class="center">Produtos Ofertados</h3>
+                  <table class="table">
             <thead>
               <tr>
                 <th scope="col">Produto</th>
@@ -73,7 +78,7 @@
                   <th scope="row">Bota</th>
                   <td>Coturno</td>
                   <td><form method="get" action="cancelar.php"><button type="submit">Excluir</button>
-                    <form method="get" action="cancelar.php"><button type="submit">Editar</button></form></td>
+                    <form method="get" action="editar.php"><button type="submit">Editar</button></form></td>
                 </tr>
                 <tr>
                   <th scope="row">Salto</th>
@@ -106,6 +111,7 @@
                     <form method="get" action="cancelar.php"><button type="submit">Editar</button></form></td>
                   </tr>
                 </div>
+              </div>
               </tbody>
             </table>    
             </div> 
@@ -114,7 +120,7 @@
                 <div class="row rodape">
                 <div class="col-12 col-md-12 "> 
                  
-               <p>Copyright ©  Women's Comfort Shoes - 2021 </p>
+                  <p class="rodapetwo">Copyright ©  Women's Comfort Shoes - 2022 </p>
                     </div>
                 </div>  
             </div>

@@ -226,7 +226,33 @@ margin-top: 10px;
     
         }
 
-        
+     .cadin{
+     
+      height: 50px;
+      width: 90px;
+      margin-top: 10px;
+      display: table-cell;
+      margin-left: 14px;
+     }
+
+     .cadin2{
+     
+      text-align: center;
+            height: 50px;
+            width: 90px;
+            display: table-cell;
+          margin-left: 22px;
+          justify-items: center;
+           }
+     .cadin3{
+     
+text-align: center;
+      height: 70px;
+      width: 90px;
+      display: table-cell;
+    margin-left: 16px;
+    justify-items: center;
+     }
 
         /* perfil.html */
 
