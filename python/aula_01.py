@@ -17,6 +17,11 @@ print("Preço: ", preco)
 '''
 numero = int(input("Digite um número: 100"))
 print(numero*15/100)
+
+
+if numero == 0:
+    print("Número")
+    
 '''
 
 # comentário 
