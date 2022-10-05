@@ -15,7 +15,7 @@ preco = float(input("Digite o preço: "))
 print("Preço: ", preco)
 
 '''
-numero = int(input("Digite um número: 100"))
+numero = int(input("Digite um número: "))
 print(numero*15/100)
 
 

@@ -19,17 +19,31 @@ print("O número armazenado é: " ,numero)
 numero = 30
 print(numero*2)
 
+
 #Questão05 da lista 01
 
 numerador = 100
 denominador = 2
 
 print(numerador/denominador)
-
+ 
 
 #Questão06 da lista 01
 
+peso = int(input("Digite seu peso : "))
+altura = float(input("Digite sua altura: "))
+IMC = (peso/altura**2)
+print(IMC)
 
+#Questão07 da lista 01
+
+Mat = float(input("Digite a primeira nota: "))
+Port= float(input("Digite a segunda nota: "))
+Info = float(input("Digite a terceira nota: "))
+
+media = (Mat + Port + Info ) / 3
+
+print("A média desse estudante foi: ",media)
 
 #Saber se o número é par
 '''
