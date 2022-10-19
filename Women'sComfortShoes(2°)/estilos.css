@@ -247,8 +247,9 @@ margin-top: 10px;
      .cadin3{
      
 text-align: center;
-      height: 70px;
-      width: 90px;
+
+      height: 77px;
+      width: 100px;
       display: table-cell;
     margin-left: 16px;
     justify-items: center;
@@ -308,3 +309,26 @@ text-align: center;
          margin-top: 20px;
          margin-left: -103px
         }
+
+          /* cadastrodeitens  */
+
+    .form{
+      margin-top: 19px;
+    }
+
+    .ft{
+      margin-top: 10px;
+    }
+
+    input[type=text2]{
+      width: 330px;
+      height: 70px;
+      text-align: center;
+      }
+
+      .cadin4{
+        width: 100px;
+        height: 50px;
+        margin-left: 20px;
+        margin-top: 20px;
+      }
