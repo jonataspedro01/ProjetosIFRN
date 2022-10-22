@@ -60,7 +60,7 @@ desconto = ( valor * 15 ) / 100
 final = valor - desconto
 
 print("Total a pagar: " , final)
-'''
+
 #Questão10 da lista 01
 
 salmin = float(input("Digite o valor do salário mínimo: "))
@@ -69,3 +69,63 @@ saluser= float(input("Digite o seu salário: "))
 resultado = ( salmin - saluser ) / 1000
 
 print("Você recebe um total de salários mínimos: " , resultado)
+
+incompleta 
+
+#Questão12 da lista 01
+
+numero= int(input("Digite um número : "))
+if numero >= 0:
+    print('false')
+else:
+    print('true')
+
+
+#Questão15 da lista 01
+
+numero= int(input("Digite um número : "))
+if numero >= 5 and numero  <50:
+    print('true')
+else:
+    print('false')
+  
+    #Questão16 da lista 01
+
+numero= int(input("Digite um número : "))
+if numero > 0 and numero  <10:
+    print('true')
+else:
+    print('false')
+    
+    
+        #Questão17 da lista 01
+
+numero= int(input("Digite um número : "))
+if numero > -10 and numero  <10:
+    print('true')
+else:
+    print('false')
+    
+     #Questão19 da lista 01
+
+numero= int(input("Digite um número : "))
+if numero < 10 or numero >20:
+    print('true')
+else:
+    print('false')
+    
+     #Questão20 da lista 01
+
+numero= int(input("Digite um número : "))
+if numero >= 10 or numero  > 0 :
+    print('true')
+else:
+    print('false')
+    '''
+     #Questão21 da lista 01
+
+numero= int(input("Digite um número : "))
+if numero >0  and numero >10 and numero  <20 :
+    print('true')
+else:
+    print('false')
