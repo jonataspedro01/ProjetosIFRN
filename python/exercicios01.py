@@ -121,7 +121,7 @@ if numero >= 10 or numero  > 0 :
     print('true')
 else:
     print('false')
-    '''
+    
      #Questão21 da lista 01
 
 numero= int(input("Digite um número : "))
@@ -129,3 +129,4 @@ if numero >0  and numero >10 and numero  <20 :
     print('true')
 else:
     print('false')
+'''
