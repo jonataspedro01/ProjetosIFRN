@@ -3,11 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Women's Comfort Shoes</title>
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
      <meta name="viewport" content="width=device-width, initial-scale=1">     
      <link rel="stylesheet" type="text/css" href="estilos.css" />
-
     <script type="text/javascript">
        /* Máscaras ER telefone */
 function mascara(o,f){
@@ -35,12 +33,10 @@ window.onload = function(){
 function mascaraData(val) {
   var pass = val.value;
   var expr = /[0123456789]/;
-
   for (i = 0; i < pass.length; i++) {
     // data de nascimento charAt -> retorna o caractere posicionado no índice especificado
     var lchar = val.value.charAt(i);
     var nchar = val.value.charAt(i + 1);
-
     if (i == 0) {
       // search -> retorna um valor inteiro, indicando a posição do inicio da primeira
       // ocorrência de expReg dentro de instStr. Se nenhuma ocorrencia for encontrada o método retornara -1
@@ -48,9 +44,7 @@ function mascaraData(val) {
       if ((lchar.search(expr) != 0) || (lchar > 3)) {
         val.value = "";
       }
-
     } else if (i == 1) {
-
       if (lchar.search(expr) != 0) {
         // substring(indice1,indice2)
         // indice1, indice2 -> será usado para delimitar a string
@@ -58,38 +52,29 @@ function mascaraData(val) {
         val.value = tst1;
         continue;
       }
-
       if ((nchar != '/') && (nchar != '')) {
         var tst1 = val.value.substring(0, (i) + 1);
-
         if (nchar.search(expr) != 0)
           var tst2 = val.value.substring(i + 2, pass.length);
         else
           var tst2 = val.value.substring(i + 1, pass.length);
-
         val.value = tst1 + '/' + tst2;
       }
-
     } else if (i == 4) {
-
       if (lchar.search(expr) != 0) {
         var tst1 = val.value.substring(0, (i));
         val.value = tst1;
         continue;
       }
-
       if ((nchar != '/') && (nchar != '')) {
         var tst1 = val.value.substring(0, (i) + 1);
-
         if (nchar.search(expr) != 0)
           var tst2 = val.value.substring(i + 2, pass.length);
         else
           var tst2 = val.value.substring(i + 1, pass.length);
-
         val.value = tst1 + '/' + tst2;
       }
     }
-
     if (i >= 6) {
       if (lchar.search(expr) != 0) {
         var tst1 = val.value.substring(0, (i));
@@ -97,60 +82,43 @@ function mascaraData(val) {
       }
     }
   }
-
   if (pass.length > 10)
     val.value = val.value.substring(0, 10);
   return true;
 } 
 // cpf //
 function is_cpf (c) {
-
 if((c = c.replace(/[^\d]/g,"")).length != 11)
   return false
-
 if (c == "00000000000")
   return false;
-
 var r;
 var s = 0;
-
 for (i=1; i<=9; i++)
   s = s + parseInt(c[i-1]) * (11 - i);
-
 r = (s * 10) % 11;
-
 if ((r == 10) || (r == 11))
   r = 0;
-
 if (r != parseInt(c[9]))
   return false;
-
 s = 0;
-
 for (i = 1; i <= 10; i++)
   s = s + parseInt(c[i-1]) * (12 - i);
-
 r = (s * 10) % 11;
-
 if ((r == 10) || (r == 11))
   r = 0;
-
 if (r != parseInt(c[10]))
   return false;
-
 return true;
 }
-
 function fMasc(objeto,mascara) {
 obj=objeto
 masc=mascara
 setTimeout("fMascEx()",1)
 }
-
   function fMascEx() {
 obj.value=masc(obj.value)
 }
-
    function mCPF(cpf){
 cpf=cpf.replace(/\D/g,"")
 cpf=cpf.replace(/(\d{3})(\d)/,"$1.$2")
@@ -158,7 +126,6 @@ cpf=cpf.replace(/(\d{3})(\d)/,"$1.$2")
 cpf=cpf.replace(/(\d{3})(\d{1,2})$/,"$1-$2")
 return cpf
 }
-
 cpfCheck = function (el) {
   document.getElementById('cpfResponse').innerHTML = is_cpf(el.value)? '<span style="color:green">válido</span>' : '<span style="color:red">inválido</span>';
   if(el.value=='') document.getElementById('cpfResponse').innerHTML = '';
@@ -167,80 +134,73 @@ cpfCheck = function (el) {
   </head>
   <body div class="body">
     <header>
-    <nav class="navbar navbar-light bg-dark">
-
+      <nav class="navbar navbar-light bg-dark">
         <div class="container-fluid">
-            <div class="row menu">
-          <a class="navbar-brand text-white" href="#"><h1>Women's Comfort Shoes</h1></a>   
-            </div>                                                                                                          
-  <ul class="nav tr">
-   <li class="nav-item text-white tr">
-     <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
-   </li>
-   <li class="nav-item">
+          <div class="row menu">
+            <a class="navbar-brand text-white" href="#"><h1>Women's Comfort Shoes</h1></a>   
+         </div>                                                                                                          
+   <ul class="nav tr">
+     <li class="nav-item text-white tr">
+      <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
      <a class="nav-link text-white" href="produtos.html">Produtos</a>
-   </li>
-   <li class="nav-item">
+    </li>
+    <li class="nav-item">
      <a class="nav-link text-white" href="cadastro.html">Cadastre-se</a>
-   </li>
-   <li class="nav-item">
+    </li>
+    <li class="nav-item">
      <a class="nav-link text-white" href="perfil.html">Perfil</a>
-   </li>
-   <li class="nav-item">
+    </li>
+    <li class="nav-item">
      <a class="nav-link text-white" href="login.html">Login</a>
-   </li>
-   <li class="nav-item">
-     <a class="nav-link text-white" href="logout.html">Logout</a>
-   </li>
- </ul>                                                                              
-    </header>
-                            
+    </li>
+    <li class="nav-item">
+     <a class="nav-link text-white" href="login.html">Sair</a>
+    </li>
+  </ul>                                                                              
+    </header>                      
     <div class="container-fluid">
       <div class="cada">
          <div class="row cadastro">
-              <div class="col-12 col-md-12 ">  
-                <h1 class="titulo">CADASTRE-SE</h1>                     
-         <form action="resposta.php" method="post">  
-             
-   <p>
-     <input type="text" name="nomecompleto" required placeholder ="Nome Completo: "/>
-    </p>
-    <p>
-    <input type="text" name="outra_data"  required placeholder ="Data de Nascimento: " maxlength="10" onkeypress="mascaraData(this)" />
-   </p>                                     
-  <p>
-   <input id="cpf" type="text" onkeyup="cpfCheck(this)" required placeholder="CPF: " maxlength="14" onkeydown="javascript: fMasc( this, mCPF );"> <span id="cpfResponse"></span>     
-  </p>                                      
-  <p>                       
-  <input type="text" id="telefone"  required placeholder="Telefone: " maxlength="15" onkeypress="mascara(this)"/>
-  </p>    
-  <p>                               
-   <input type="textemail" id="emailid" placeholder="Digite seu email: " name="email" />     
-   </p>                            
-   <p>
-    <input type="password" id="exampleInputPassword1" placeholder="Digite sua senha: "/>
-   </p>                           
-  <p>          
-     <input type="password" id="repetirsenha" placeholder="Repetir senha: "/>
-  </p> 
-                                  
-  <button class="btnccadastrar"  onclick="Enviar();"> Cadastrar</button>
-  </form>                   
+            <div class="col-12 col-md-12 ">  
+              <h1 class="titulo">CADASTRE-SE</h1>                     
+                <form action="resposta.php" method="post">         
+                  <p>
+                    <input type="text" name="nomecompleto" required placeholder ="Nome Completo: "/>
+                 </p>
+                 <p>
+                   <input type="text" name="outra_data"  required placeholder ="Data de Nascimento: " maxlength="10" onkeypress="mascaraData(this)" />
+                 </p>                                     
+                 <p>
+                   <input id="cpf" type="text" onkeyup="cpfCheck(this)" required placeholder="CPF: " maxlength="14" onkeydown="javascript: fMasc( this, mCPF );"> <span id="cpfResponse"></span>     
+                 </p>                                      
+                 <p>                       
+                   <input type="text" id="telefone"  required placeholder="Telefone: " maxlength="15" onkeypress="mascara(this)"/>
+                 </p>    
+                 <p>                               
+                   <input type="textemail" id="emailid" placeholder="Digite seu email: " name="email" />     
+                 </p>                            
+                 <p>
+                   <input type="password" id="exampleInputPassword1" placeholder="Digite sua senha: "/>
+                 </p>                           
+                 <p>          
+                   <input type="password" id="repetirsenha" placeholder="Repetir senha: "/>
+                </p>                                
+                   <button class="btnccadastrar"  onclick="Enviar();"> Cadastrar</button>
+               </form>                   
             </div>
         </div>
     </div>
   </div>                  
-    <div class="container-fluid bg-dark">
-        <div class="row rodape">
-            <div class="col-12 col-md-12 "> 
-              <p class="rodapetwo">Copyright ©  Women's Comfort Shoes - 2022 </p>
-           </div>
-       </div>
-   </div>
-        
+  <div class="container-fluid bg-dark">
+      <div class="row rodape">
+          <div class="col-12 col-md-12 "> 
+             <p class="rodapetwo">Copyright ©  Women's Comfort Shoes - 2022 </p>
+          </div>
+      </div>
+  </div>     
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-        
-</body>
-        
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>      
+</body>      
 </html>
