@@ -1,74 +1,87 @@
 /* geral */
+
 .body
     {
       background-color: white;
       margin: 0px;
     }
 
-    .rodape
+.rodape
     { 
       text-align: center;
       align-items: center;
       color: white;
     }
 
-    .rodapetwo{
+.rodapetwo
+    {
       margin-top: 10px;
     }
 
-    /* index.html */
+/* index.html */
 
-p{
-  text-align: center;
-}
-.descricion{
-  text-align: justify;
-}
-.titulo{
-  font-size: 22px;
-}
-  .inicio
+p
+  {
+    text-align: center;
+  }
+
+.descricion
+  {
+    text-align: justify;
+  }
+
+.titulo
+  {
+    font-size: 22px;
+  }
+
+.inicio
   {
     color: black;
     text-align: justify;
     margin-top: 13px;
     margin-left: 20px;
   }
-  .women{
+
+.women
+  {
     text-align: center;
   }
-  .slogan1{
+
+.slogan1
+  {
     font-size: 22px;
     font-weight: bold;
     margin-top: 25px;
     margin-bottom: 20px;
     margin-inline-end: 10px;
-   
     padding: -37px;
     text-align: justify;
-   
+  }
+
+.slogan
+   {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-inline-end: 10px;
+    padding: -37px;
+    text-align: justify;
    }
 
- .slogan{
-  font-size: 22px;
-  font-weight: bold;
-  margin-top: 25px;
-  margin-bottom: 20px;
-  margin-inline-end: 10px;
-  padding: -37px;
-  
-  text-align: justify;
-  
- }
-  .primeiro , .segundo
-  {
+.primeiro , .segundo
+   {
     color: black;
-  }
-  .visit
+   }
+
+.visit
   {
     text-align: center;
   }
-  button{
+
+button
+  {
     width: 110px;
     height: 40px;
     margin-left: 35%;
@@ -80,255 +93,301 @@ p{
     background-color: white;
     margin-bottom: 12px;  
     border-radius: 7px;
-}
-button:hover {
-  background: rgb(224, 224, 40);
-  cursor: pointer;
-  color: #000;
+  }
+
+button:hover 
+  {
+    background: rgb(224, 224, 40);
+    cursor: pointer;
+    color: #000;
 }
 
 a:link
-{
-  text-decoration: none;
-} 
+  {
+    text-decoration: none;
+  } 
+
 /* link que foi visitado */
+
 a:visited 
-{
-  color: blue;
-}
+  {
+    color: blue;
+  }
+
 /* link que ainda não foi visitado */
 
 a.botao-vermelho:link 
-{
-  color: black;
-}
-  /* produtos.html */
+  {
+    color: black;
+  }
 
-  .linha1
+/* produtos.html */
+
+.linha1
   {
     color: black;
     margin-top: 0px;
   }
-  .linha2, .linha3{
+
+.linha2, .linha3
+  {
     color: black;
     text-align: center;
   }
 
-  .btnprodutos {
+.btnprodutos 
+  {
     margin-top: 10px;
     margin-left: 2px;
- }
- .btnprodutoscuatro{
-  margin-top: 10px;
-    margin-left: 2px;
- }
- 
- .btnun{
-  text-align: center;
-  margin-left: 5px; 
-   margin-top: 12px;
-   width: 120px;
- }
- .borda{
-  border: 1px  black;
-  text-align: center;
-  background-color: rgb(246, 233, 214);
-  font-size: 20px;
- }
- .btnbusca{
-   margin-left: 5px; 
-   margin-top: 12px;
-   width: 120px;
- }
- .nuestros{
-text-align: center;
-color: black;
-font-size: 30px;
-margin-top: 10px;
- }
- .centralizar{
-  text-align: center;
- }
-
- input[type=text1]{
-  width: 200px;
   }
 
-  /* login.html */
+.btnprodutoscuatro
+  {
+    margin-top: 10px;
+    margin-left: 2px;
+  }
+ 
+.btnun
+  {
+    text-align: center;
+    margin-left: 5px; 
+    margin-top: 12px;
+    width: 120px;
+  }
 
-  .login
+.borda
+  {
+    border: 1px  black;
+    text-align: center;
+    background-color: rgb(246, 233, 214);
+    font-size: 20px;
+  }
+
+.btnbusca
+  {
+    margin-left: 5px; 
+    margin-top: 12px;
+    width: 120px;
+  }
+
+.nuestros
+  {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin-top: 10px;
+  }
+
+.centralizar
   {
     text-align: center;
   }
 
-  .log{
-    margin-bottom: 258px;
-        text-align: center;
+input[type=text1]
+  {
+    width: 200px;
   }
 
-   /* cadastro.html */
+/* login.html */
 
-   .cadastro
-   {
-     text-align: center;
-     color: black;
-     margin-top: 10px;
-     font-size: 17px;
-   height: 480px;
-   }
+.login
+  {
+    text-align: center;
+  }
 
-   .titulo{
+.log
+  {
+    margin-bottom: 258px;
+    text-align: center;
+  }
+
+/* cadastro.html */
+
+.cadastro
+  {
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    font-size: 17px;
+    height: 480px;
+  }
+
+.titulo
+  {
     text-align: center;
     color: black;
     margin-top: 1px;
     font-size: 30px;
     padding: 20px;
-   }
+  }
 
-   .btnccadastrar{
+.btnccadastrar
+  {
     text-align: center;
     margin-left: 5px; 
-   margin-top: 5px;
-   width: 120px;
-   }
+    margin-top: 5px;
+    width: 120px;
+  }
    
-   input[type=text], [type=textemail] , [type=password] {
+input[type=text], [type=textemail] , [type=password] 
+  {
     width: 230px;
-    }
+  }
 
-    .cada{
-      margin-bottom: 3px;
-          text-align: center;
-    }
+.cada
+  {
+    margin-bottom: 3px;
+    text-align: center;
+  }
 
-  /* compras.html , produtoscadastrados.html */
+/* compras.html , produtoscadastrados.html */
 
-  .table
+.table
   {
     text-align: center;
   }
 
-  .kom{
-          
+.kom
+  {       
     margin-top: -6px;
   }
 
-  .link{
+.link
+  {
     font-size: 18px;
     color: #000;
     width: 200px;
     margin-left: 20px;
   }
-  /* detalhes.html */
 
-  .h1{
+/* detalhes.html */
+
+.h1
+  {
     border-block-start-color: brown;
-    
-        }
+  }
 
-     .cadin{
-     
-      height: 50px;
-      width: 90px;
-      margin-top: 10px;
-      display: table-cell;
-      margin-left: 14px;
-     }
+.cadin
+  {
+    height: 50px;
+    width: 90px;
+    margin-top: 10px;
+    display: table-cell;
+    margin-left: 14px;
+  }
 
-     .cadin2{
-     
-      text-align: center;
-            height: 50px;
-            width: 90px;
-            display: table-cell;
-          margin-left: 22px;
-          justify-items: center;
-           }
-     .cadin3{
-     
-text-align: center;
+.cadin2
+  {
+    text-align: center;
+    height: 50px;
+    width: 90px;
+    display: table-cell;
+    margin-left: 22px;
+    justify-items: center;
+  }
 
-      height: 77px;
-      width: 100px;
-      display: table-cell;
+.cadin3
+  {  
+    text-align: center;
+    height: 77px;
+    width: 100px;
+    display: table-cell;
     margin-left: 16px;
     justify-items: center;
-     }
+  }
 
-        /* perfil.html */
+ /* perfil.html */
 
-        p{
-          text-align: center;
-        }
-        .perfil{
-          margin-bottom: 271px;
-          text-align: center;
-        }
+p
+  {
+    text-align: center;
+  }
 
-        .btncinco{
-         text-align: center;
-           margin-top: 5px;
-           margin-left: 10px;
-          width: 120px;
-        }
+.perfil
+  {
+    margin-bottom: 271px;
+    text-align: center;
+  }
 
-        /* dadospessoais   */
+.btncinco
+  {
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 120px;
+  }
 
+/* dadospessoais   */
 
-        .center{
-          text-align: center;
-        }
+.center
+  {
+    text-align: center;
+  }
      
-        .agar{
-          text-align: center;
-          margin-left: -103px;
-          margin-top: 20px;
-        }
+.agar
+  {
+    text-align: center;     
+    margin-top: 20px;
+  }
         
-        .link2{
+.link2
+  {
     font-size: 15px;
     color: #000;
     width: 100px;
-    margin-left: -10px;
-   
+    margin-left: 70px;
+    text-align: center;
+    display: flex;
+    margin-top: 12px;
   }
-        .btnatualizar{
-          text-align: center;
+
+.btnatualizar
+  {
+    text-align: center;
     margin-left: 10px; 
-   margin-top: 5px;
-   width: 120px;
-        }
+    margin-top: 5px;
+    width: 120px;
+  }
 
-        .atualizarc {
-          text-align: center;
-          color: black;
-          margin-top: 10px;
-          font-size: 17px;
-        height: 360px;
-        
-         margin-top: 20px;
-         margin-left: -103px
-        }
+.atualizarc 
+  {
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    font-size: 17px;
+    height: 360px;
+    margin-top: 10px; 
+ }
 
-          /* cadastrodeitens  */
+.btnfla
+  {
+    text-align: center;
+    margin-left: 20px;
+  }
 
-    .form{
-      margin-top: 19px;
-    }
+/* cadastrodeitens  */
 
-    .ft{
-      margin-top: 10px;
-    }
+.form
+  {
+   margin-top: 19px;
+  }
 
-    input[type=text2]{
-      width: 330px;
-      height: 70px;
-      text-align: center;
-      }
+.ft
+  {
+    margin-top: 10px;
+  }
 
-      .cadin4{
-        width: 100px;
-        height: 50px;
-        margin-left: 20px;
-        margin-top: 20px;
-      }
+input[type=text2]
+  {
+    width: 330px;
+    height: 70px;
+    text-align: center;
+  }
+
+.cadin4
+  {
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }

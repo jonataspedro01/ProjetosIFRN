@@ -3,70 +3,64 @@
   <head>
     <meta charset="utf-8">
     <title>Women's Comfort Shoes</title>
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
      <meta name="viewport" content="width=device-width, initial-scale=1">     
      <link rel="stylesheet" type="text/css" href="estilos.css" />
 <script type="text/javascript">
+
         /* Máscaras ER */
+
  function mascara(o,f){
      v_obj=o
      v_fun=f
      setTimeout("execmascara()",1)
  }
+
  function execmascara(){
      v_obj.value=v_fun(v_obj.value)
  }
+
  function mtel(v){
      v=v.replace(/\D/g,""); //Remove tudo o que não é dígito
      v=v.replace(/^(\d{2})(\d)/g,"($1) $2"); //Coloca parênteses em volta dos dois primeiros dígitos
      v=v.replace(/(\d)(\d{4})$/,"$1-$2"); //Coloca hífen entre o quarto e o quinto dígitos
      return v;
  }
+
  function id( el ){
    return document.getElementById( el );
  }
+
  window.onload = function(){
    id('telefone').onkeyup = function(){
      mascara( this, mtel );
    }
  }
-  // cpf //
-function is_cpf (c) {
 
+  // cpf //
+
+function is_cpf (c) {
 if((c = c.replace(/[^\d]/g,"")).length != 11)
   return false
-
 if (c == "00000000000")
   return false;
-
 var r;
 var s = 0;
-
 for (i=1; i<=9; i++)
   s = s + parseInt(c[i-1]) * (11 - i);
-
 r = (s * 10) % 11;
-
 if ((r == 10) || (r == 11))
   r = 0;
-
 if (r != parseInt(c[9]))
   return false;
-
 s = 0;
-
 for (i = 1; i <= 10; i++)
   s = s + parseInt(c[i-1]) * (12 - i);
-
 r = (s * 10) % 11;
-
 if ((r == 10) || (r == 11))
   r = 0;
-
 if (r != parseInt(c[10]))
   return false;
-
 return true;
 }
 
@@ -92,102 +86,89 @@ cpfCheck = function (el) {
   document.getElementById('cpfResponse').innerHTML = is_cpf(el.value)? '<span style="color:green">válido</span>' : '<span style="color:red">inválido</span>';
   if(el.value=='') document.getElementById('cpfResponse').innerHTML = '';
 }
+
  </script>
   </head>
   <body div class="body">
     <header>
-    <nav class="navbar navbar-light bg-dark">
+      <nav class="navbar navbar-light bg-dark">
          <div class="container-fluid">
             <div class="row menu">
                <a class="navbar-brand text-white" href="#"><h1>Women's Comfort Shoes</h1></a>   
             </div>                                                                                                          
-<ul class="nav tr">
-  <li class="nav-item text-white tr">
-    <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link text-white" href="produtos.html">Produtos</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link text-white" href="cadastro.html">Cadastre-se</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link text-white" href="perfil.html">Perfil</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link text-white" href="login.html">Login</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link text-white" href="login.html">Sair</a>
-  </li>
-</ul>                                                                              
-</header>
-                         
-<div class="container-fluid">
-    <div class="row center">
+            <ul class="nav tr">
+              <li class="nav-item text-white tr">
+                <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
+             </li>
+             <li class="nav-item">
+                <a class="nav-link text-white" href="produtos.html">Produtos</a>
+             </li>
+             <li class="nav-item">
+               <a class="nav-link text-white" href="cadastro.html">Cadastre-se</a>
+             </li>
+             <li class="nav-item">
+              <a class="nav-link text-white" href="perfil.html">Perfil</a>
+             </li>
+             <li class="nav-item">
+              <a class="nav-link text-white" href="login.html">Login</a>
+             </li>
+             <li class="nav-item">
+              <a class="nav-link text-white" href="login.html">Sair</a>
+             </li>
+           </ul>                                                                              
+   </header>                    
+   <div class="container-fluid">
+     <div class="row center">
        <div class="col-12 col-md-12 ">  
         <h1>Nome do usuário</h1>     
        </div>
-   </div>
-</div>
-                         
-<div class="container-fluid">
+    </div>
+  </div>                      
+  <div class="container-fluid">
     <div class="row ">
-        <div class="col-12 col-md-2 ">  
-              
-       <div class="link2">  
-    <button>
-      <a href= "perfil.html">Perfil</a>
-    </button>
-            
-              <button>
-                <a  href="compras.html">Compras</a>
-              </button>
-            </div>  
-            </div>
-        <div class="col-12 col-md-10 ">  
-         
-          <h4 class="agar">Edite seu Perfil</h4> 
-          <div class="atualizarc">
+      <div class="col-12 col-md-12 ">        
+        <div class="link2">  
+          <button class="btnfla">
+            <a href= "perfil.html">Perfil</a>
+         </button>    
+          <button class="btnfla">
+            <a  href="compras.html">Compras</a>
+          </button>
+        </div>  
+      </div>
+      <div class="col-12 col-md-12 ">   
+         <h4 class="agar">Edite seu Perfil</h4> 
+           <div class="atualizarc">
              <form action="perfil.html" method="post">
-              <p>
-                <input type="text" name="nomecompleto" required placeholder ="Nome Completo: "/>
-               </p>
-                                                    
-             <p>
-              <input id="cpf" type="text" onkeyup="cpfCheck(this)" required placeholder="CPF: " maxlength="14" onkeydown="javascript: fMasc( this, mCPF );"> <span id="cpfResponse"></span>     
-             </p>                                      
-             <p>                       
-             <input type="text" id="telefone"  required placeholder="Telefone: " maxlength="15" onkeypress="mascara(this)"/>
-             </p>    
-             <p>                               
-              <input type="textemail" id="emailid" placeholder="Digite seu email: " name="email" />     
-              </p>                            
-              <p>
-               <input type="password" id="exampleInputPassword1" placeholder="Digite sua senha: "/>
-              </p>                           
-             
-                                             
-             <button class="btnatualizar"  onclick="Enviar();"> Atualizar</button>
+               <p>
+                 <input type="text" name="nomecompleto" required placeholder ="Nome Completo: "/>
+               </p>                                       
+               <p>
+                 <input id="cpf" type="text" onkeyup="cpfCheck(this)" required placeholder="CPF: " maxlength="14" onkeydown="javascript: fMasc( this, mCPF );"> <span id="cpfResponse"></span>     
+               </p>                                      
+               <p>                       
+                 <input type="text" id="telefone"  required placeholder="Telefone: " maxlength="15" onkeypress="mascara(this)"/>
+               </p>    
+               <p>                               
+                 <input type="textemail" id="emailid" placeholder="Digite seu email: " name="email" />     
+               </p>                            
+               <p>
+                 <input type="password" id="exampleInputPassword1" placeholder="Digite sua senha: "/>
+               </p>                                                          
+               <button class="btnatualizar"  onclick="Enviar();"> Atualizar</button>
              </form>  
             </div>          
-        </div>
-        
+      </div>    
     </div>
-</div>
-                         
-<div class="container-fluid bg-dark">
+ </div>                       
+ <div class="container-fluid bg-dark">
     <div class="row rodape">
-        <div class="col-12 col-md-12 "> 
-                         
+      <div class="col-12 col-md-12 ">                  
           <p class="rodapetwo">Copyright ©  Women's Comfort Shoes - 2022 </p>
-        </div>
-    </div>
-</div>  
-
+      </div>
+   </div>
+ </div>  
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
-          
-</body>
-          
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>         
+</body>        
 </html>
