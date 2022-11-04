@@ -391,3 +391,22 @@ input[type=text2]
     margin-left: 20px;
     margin-top: 20px;
   }
+
+/* detalhes.html */
+ 
+.calcf
+ {
+   margin-left: 40px;
+ }
+
+#btdt1
+ { 
+   margin-right: -20px;
+ }
+
+ #btdt2
+ {
+   margin-top: 10px;
+   text-align: center;
+   margin-right: -20px;
+ }
