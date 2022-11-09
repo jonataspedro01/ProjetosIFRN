@@ -89,7 +89,7 @@ else:
     print('Reprovado!')
 
 
-'''
+
 
 #12
 
@@ -99,3 +99,24 @@ if numero >=1 and numero <=10 :
    print('Correto')
 else:
     print('Errado')
+
+
+#13
+
+senhaof = 4531
+senha = int(input('Digite sua senha que deve ser igual à 4531: '))
+if senha == senhaof :
+    print("Senha correta")
+else:
+    print('Senha incorreta')
+'''
+#14
+
+primeiro= int(input("Digite o primeiro número : "))
+segundo= int(input("Digite o segundo número : "))
+
+if primeiro > segundo : 
+   print(f"O primeiro número digitado:   {primeiro} é maior que o segundo:  {segundo}!")
+else:
+    print(f"O segundo número digitado:  {segundo} é maior que o primeiro:  {primeiro} !")
+    
