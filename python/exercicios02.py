@@ -54,7 +54,7 @@ if num1 > num2 :
 else:
      print("O segundo número é maior que o primeiro")
 
-'''   
+  
 #09
 
 Nascimento = int(input('Digite o seu ano de nascimento: '))
@@ -63,7 +63,39 @@ idade = Ano - Nascimento
 if Nascimento < Ano : 
     print(idade)
 
+ 
+
+#10
+
+numero = float(input('Digite um número: '))
+resto = numero % 2
+
+if resto == 0: 
+   print('Número é par')
+else:
+    print('Número é ímpar')
 
 
+#11
+
+primeiroB= int(input("Digite a nota do Primeiro Bimestre : "))
+segundoB= int(input("Digite a nota do Segundo Bimestre : "))
+
+media = (primeiroB + segundoB) / 2
+
+if media >= 6: 
+   print('Aprovado!')
+else:
+    print('Reprovado!')
 
 
+'''
+
+#12
+
+numero= int(input("Digite um número entre 1 e 10 : "))
+
+if numero >=1 and numero <=10 : 
+   print('Correto')
+else:
+    print('Errado')
