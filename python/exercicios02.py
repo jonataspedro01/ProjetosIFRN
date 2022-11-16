@@ -109,7 +109,7 @@ if senha == senhaof :
     print("Senha correta")
 else:
     print('Senha incorreta')
-'''
+
 #14
 
 primeiro= int(input("Digite o primeiro número : "))
@@ -119,4 +119,26 @@ if primeiro > segundo :
    print(f"O primeiro número digitado:   {primeiro} é maior que o segundo:  {segundo}!")
 else:
     print(f"O segundo número digitado:  {segundo} é maior que o primeiro:  {primeiro} !")
-    
+
+'''
+#15
+
+
+
+idade = int(input("Digite sua idade : "))
+
+if idade >= 5 and idade <= 7 :
+    print("Categoria infantil")
+elif idade >= 8 and idade <= 10 :
+     print("Categoria juvenil")
+elif idade >= 11 and idade <= 15 :
+    print("Categoria adolescente")
+elif idade >= 16 and idade <= 30 :
+    print("Categoria adulto")
+else :
+    print("Categoria sênior")
+     
+
+
+
+
