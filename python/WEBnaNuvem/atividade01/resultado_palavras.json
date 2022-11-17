@@ -1,0 +1,52 @@
+{
+    "language": "pt",
+    "textAngle": 0.0,
+    "orientation": "Up",
+    "regions": [
+        {
+            "boundingBox": "205,250,692,1421",
+            "lines": [
+                {
+                    "boundingBox": "348,250,420,69",
+                    "words": [
+                        {
+                            "boundingBox": "348,250,338,69",
+                            "text": "SOMOS"
+                        },
+                        {
+                            "boundingBox": "748,289,20,18",
+                            "text": "\u2022"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "566,439,331,63",
+                    "words": [
+                        {
+                            "boundingBox": "566,439,331,63",
+                            "text": "ALCUNS"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "205,1367,670,92",
+                    "words": [
+                        {
+                            "boundingBox": "205,1367,670,92",
+                            "text": "FLAV.N!GO"
+                        }
+                    ]
+                },
+                {
+                    "boundingBox": "469,1652,141,19",
+                    "words": [
+                        {
+                            "boundingBox": "469,1652,141,19",
+                            "text": "NFLAMITO/"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
