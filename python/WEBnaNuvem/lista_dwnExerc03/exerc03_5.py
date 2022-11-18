@@ -12,5 +12,7 @@ for i in range(1,31):
       soma += impar
       impar += 2
       print("Soma dos números impares",soma)
+  
+
       
       
