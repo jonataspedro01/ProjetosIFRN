@@ -12,3 +12,5 @@ print("A quantidade de números ímpares é: ", impares)
 for i in range(15,36):
      if i % 2 == 1:
       print(i*i)
+      
+

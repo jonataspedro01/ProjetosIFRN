@@ -14,3 +14,18 @@ def verificadia_semana(num):
       print("Mês inválido")
 
 verificadia_semana(num)
+
+# Daiane
+
+mes = int(input('Digite um número de (1 a 12): '))
+
+def verificar(mes):
+    numeros = {1:'Janeiro', 2:'Fevereiro', 3:'Março', 4:'Abril', 5:'Maio', 6:'Junho', 7:'Julho', 8:'Agosto', 9:'Setembro', 10:'Outubro', 11:'Novembro', 12:'Dezembro'}
+    for n in numeros:
+        if mes == n:
+            print(numeros[n])
+            break
+    else:
+        print("Mês inválido")
+
+verificar(mes)

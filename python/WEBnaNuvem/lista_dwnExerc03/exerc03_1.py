@@ -34,7 +34,7 @@ elif dia < 0 or dia > 6:
 
 """
 
-# Outra forma
+# Outra forma (Daiane)
 
 dia_semana = int(input('Digite um número de (1 a 7): '))
 
