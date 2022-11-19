@@ -19,7 +19,7 @@ sexo VARCHAR(10)
 data_nascimento DATE
 end_logradouro VARCHAR (300)
 end_numero INT
-end_cidade VARCHAR(300) |
+end_cidade VARCHAR(300) 
 end_bairro VARCHAR(300)
 end_estado VARCHAR(300)
 end_cep VARCHAR(10)
