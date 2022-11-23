@@ -1,5 +1,5 @@
-#01
 '''
+#01
 numero= int(input("Digite um número inteiro: "))
 if numero <0 :
     print('Número negativo')
@@ -120,9 +120,8 @@ if primeiro > segundo :
 else:
     print(f"O segundo número digitado:  {segundo} é maior que o primeiro:  {primeiro} !")
 
-'''
-#15
 
+#15
 
 
 idade = int(input("Digite sua idade : "))
@@ -138,6 +137,43 @@ elif idade >= 16 and idade <= 30 :
 else :
     print("Categoria sênior")
      
+
+
+#16
+
+
+idade = int(input("Digite sua idade : "))
+    
+if idade >= 0 and idade <= 12 :
+   print("Faixa etária: Criança") 
+elif idade >= 13 and idade <= 17 :
+   print("Faixa etária: Adolescente") 
+elif idade >= 18 and idade <= 60 :
+   print("Faixa etária: Adulto") 
+else:
+   print ("Idoso")
+  
+ '''
+ 
+#17
+
+peso = float(input("Digite seu peso : "))
+altura = float(input("Digite sua altura: "))
+IMC = (peso/altura**2)
+print(IMC)
+    
+if IMC <= 18.5 :
+    print("Abaixo do peso") 
+elif IMC <= 25:
+    print ("Peso normal")
+elif IMC  <= 30 :
+    print ("Acima do peso")
+elif IMC  <= 35 :
+    print ("Obesidade grau I")
+elif IMC  <= 40 :
+    print ("Obesidade grau II")
+else:
+    print ("Obeso")
 
 
 
