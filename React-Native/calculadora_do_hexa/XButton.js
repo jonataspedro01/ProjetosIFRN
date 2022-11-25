@@ -15,14 +15,14 @@ export default function XButton (props: IXButton)
   <Text  
       style={{
     margin: 1 , 
-    marginLeft: 4.5,
+    marginLeft: 5.5,
     marginHorizontal: 20,
     marginVertical: 11,
     borderRadius: 140, 
     backgroundColor: 'green',
     width: size,
-    height: 100,
-    fontSize: 80,
+    height: 90,
+    fontSize: 70,
     textAlign: 'center',
     color: 'white',
     }} 

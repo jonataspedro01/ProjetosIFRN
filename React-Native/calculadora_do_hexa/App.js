@@ -65,9 +65,10 @@ displaySet(0)
       }}>
  <Text  
  style={{
-   fontSize: 20 , 
+   fontSize: 23 , 
    textAlign: 'center' , 
-   color: 'black',
+   color: 'white',
+   border: 'black',
    marginVertical: 0, }}>
     BRASIL RUMO AO HEXA!
     </Text>
