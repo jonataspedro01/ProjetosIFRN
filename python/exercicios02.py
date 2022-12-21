@@ -1,5 +1,7 @@
-'''
+""" 
+
 #01
+
 numero= int(input("Digite um número inteiro: "))
 if numero <0 :
     print('Número negativo')
@@ -153,7 +155,7 @@ elif idade >= 18 and idade <= 60 :
 else:
    print ("Idoso")
   
- '''
+
  
 #17
 
@@ -176,5 +178,34 @@ else:
     print ("Obeso")
 
 
+ #18
+ 
+salario = int(input("Digite seu salário: "))
+quinze = 15/100
+dez = 10/100
+cinco = 5/100
+ 
+salq = salario * quinze
+sald = salario * dez
+salc = salario * cinco
+ 
+if salario > 0 and salario <= 300 :
+    print("Salário com ajuste: " , salq + salario ) 
+elif salario > 300 and salario <= 600:
+    print ("Salário com ajuste: " , sald + salario )
+elif salario > 600 and salario <= 900:
+    print ("Salário com ajuste: " , salc + salario )
+else:
+    print ("Seu salário não tem ajustes! Salário digitado: " , salario)
 
+"""
+#19
 
+    
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digiteo segundo número: "))
+num3 = int(input("Digite o terceiro número: "))
+
+Lsta=[num1,num2, num3]
+
+print(sorted(Lsta))
